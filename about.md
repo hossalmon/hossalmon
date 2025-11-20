@@ -4,15 +4,16 @@ title: "about"
 permalink: /about/
 ---
 
-i'm hossam. i live in adelaide and split my time between writing code, running table tennis events, and over-engineering my own life systems.
-
-this site is where i:
-
-- collect things i've learned
-- track projects over time
-- stash notes about places i want to visit
+My name is Hossam and I’m a South African-born-Pakistani-Australian /flag /flag /flag <br><br>
+I love grapes, long-walks on the beach, table tennis, MMA, sudoku, tech and spending time with friends & family. <br><br>
+At the time of writing this, I live in Adelaide, Australia – but would LOVE to move somewhere else while I’m still (barely) in my 20s. I have also just wrapped up an interesting decade in my life where I almost became a doctor, developed crippling anxiety/depression, went on some cool adventures, acquired a massive HECS debt, made amazing friends/relationships and got into CS where I’m currently working in the realm of full stack web development. <br>
+And so, this website comes at a time where I feel like I’m entering a new chapter in my life and would like to document my thoughts, experiences, feelings and that. Oh and also do the thing where I show off any cool projects I make.
 
 
+
+
+
+<!-- footer -->
 
 <div class="footer-logo">
   <a href="https://www.youtube.com/watch?v=wp43OdtAAkM" target="_blank" class="footer-hills-link">

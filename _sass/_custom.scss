@@ -208,25 +208,6 @@ a {
   50%      { transform: translate(800px, 33px) scale(1.255); }
 }
 
-/* subtle red horizon glow behind hills */
-
-.footer-glow {
-  fill: $accent;              // uses your existing accent red
-  opacity: 0.95;              // keep it gentle
-  pointer-events: none;       // don't block clicks on the link
-  mix-blend-mode: screen;     // softens it against background (if supported)
-  transform-origin: center;
-  animation: footerGlowPulse 3s ease-in-out infinite;
-}
-
-@keyframes footerGlowPulse {
-  0%, 100% {
-    opacity: 0.4;
-  }
-  50% {
-    opacity: 1;
-  }
-}
 
 
 /* menu entries */

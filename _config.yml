@@ -24,11 +24,12 @@ description: >
   <p class="intro-line">&gt; junior web devolper in adelaide, south australia</p>
 
   <p>
-    hello! and welcome to my site.<br>
+    hello! hi!.<br>
+    it seems as if it is a rite of passage for anyone getting into the tech world to make their own site, so here goes ~<br>
     this is a place where I dump some of my thoughts and display the things i'm working on.<br>
     feel free to reach out on any of the links above if something catches your eye :)<br><br>
   </p>
-
+  <hr>
 
 permalink: /:slug.html
 

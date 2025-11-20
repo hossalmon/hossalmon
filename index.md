@@ -12,22 +12,6 @@ layout: home
       preserveAspectRatio="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-    <defs>
-    <!-- big soft blur filter for the glow -->
-    <filter id="footerGlowBlur" x="-20%" y="-50%" width="140%" height="200%">
-      <feGaussianBlur stdDeviation="80" />
-    </filter>
-    </defs>
-
-      <!-- subtle horizon glow behind the hills -->
-  <ellipse
-    class="footer-glow"
-    cx="500"   <!-- center of the SVG width -->
-    cy="40"    <!-- vertical position; lower = closer to bottom -->
-    rx="360"   <!-- horizontal radius -->
-    ry="140"   <!-- vertical radius -->
-    filter="url(#footerGlowBlur)"
-  />
 
       <!-- distant hill -->
       <path
