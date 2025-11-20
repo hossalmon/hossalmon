@@ -1,23 +1,47 @@
-title: no style, please! # name of the site
-author: Riccardo Graziosi # name of site's author
-email: riccardo.graziosi97@gmail.com # email of site's author
-url: https://riggraz.dev # root address of the site
-baseurl: "/no-style-please" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
-description: > # description of the site (multiple lines allowed)
-  A (nearly) no-CSS, fast, minimalist Jekyll theme.
+title: ∴ hossalmon  # name of the site
+author: Hossam Amin # name of site's author
+email: hos.amin97@gmail.com # email of site's author
+
+# you can change this later to your actual site URL (e.g. https://hossalmon.github.io)
+url: "http://localhost:4000"
+
+# site at root (no subpath)
+baseurl: ""
+
+description: >
+  <p class="social-strip">
+    <a href="https://www.instagram.com/hossalmon/" target="_blank" rel="noopener">insta</a>
+    &nbsp;|&nbsp;
+    <a href="https://x.com/h_aminlol" target="_blank" rel="noopener">twitter</a>
+    &nbsp;|&nbsp;
+    <a href="https://github.com/hossalmon" target="_blank" rel="noopener">github</a>
+    &nbsp;|&nbsp;
+    <a href="https://www.youtube.com/@hossalmon" target="_blank" rel="noopener">youtube</a>
+    &nbsp;|&nbsp;
+    <a href="https://www.linkedin.com/in/hossam-amin-1b3858154/" target="_blank" rel="noopener">forbidden-link</a>
+  </p>
+
+  <p class="intro-line">&gt; junior web devolper in adelaide, south australia</p>
+
+  <p>
+    hello! and welcome to my site.<br>
+    this is a place where I dump some of my thoughts and display the things i'm working on.<br>
+    feel free to reach out on any of the links above if something catches your eye :)<br><br>
+  </p>
+
 
 permalink: /:slug.html
 
 favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
 # goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
 
-remote_theme: riggraz/no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
+remote_theme: riggraz/no-style-please
 
 theme_config:
-  appearance: "auto" # can be "light", "dark" or "auto"
+  appearance: "light" # can be "light", "dark" or "auto"
   back_home_text: ".." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: false # show blog description in home page
+  show_description: true # show blog description in home page
   lowercase_titles: true # show titles in lowercase in lists
 
 sass:
@@ -26,12 +50,14 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jektex
+  # comment out jektex if you don't need LaTeX and want to silence the KaTeX errors
+  # - jektex
 
-jektex:
-  cache_dir: ".jektex-cache"
-  ignore: ["*.xml"]
-  silent: false
-  macros:
-    - ["\\Q", "\\mathbb{Q}"]
-    - ["\\C", "\\mathbb{C}"]
+# comment this whole block out if not using jektex
+# jektex:
+#   cache_dir: ".jektex-cache"
+#   ignore: ["*.xml"]
+#   silent: false
+#   macros:
+#     - ["\\Q", "\\mathbb{Q}"]
+#     - ["\\C", "\\mathbb{C}"]

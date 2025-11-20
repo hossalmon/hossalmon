@@ -1,0 +1,43 @@
+<svg width="100%" height="120" viewBox="0 0 1000 120"
+     xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+
+  <!-- distant hill -->
+  <path
+    d="M0 70
+       Q 200 20 380 45
+       T 720 30
+       T 1000 60"
+    fill="none"
+    stroke="#ff3b4f"
+    stroke-width="2"
+    opacity="0.3"
+    stroke-linecap="round"
+  />
+
+  <!-- mid hill -->
+  <path
+    d="M0 85
+       Q 220 40 450 55
+       T 820 50
+       T 1000 75"
+    fill="none"
+    stroke="#ff3b4f"
+    stroke-width="2.5"
+    opacity="0.55"
+    stroke-linecap="round"
+  />
+
+  <!-- front hill -->
+  <path
+    d="M0 100
+       Q 180 60 380 80
+       T 740 70
+       T 1000 100"
+    fill="none"
+    stroke="#ff3b4f"
+    stroke-width="3"
+    opacity="1"
+    stroke-linecap="round"
+  />
+
+</svg>
